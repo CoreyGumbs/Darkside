@@ -1,0 +1,316 @@
+/*Corey Gumbs
+	12.18.2015
+	Rich Media Optimization
+	Final Project
+	Full Sail University
+	Heather Arbuckle-Instructor */
+
+@import url(https://fonts.googleapis.com/css?family=Holtwood+One+SC);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Trade+Winds);
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #222;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+/*--- Header/Navigation ---*/
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 70px;
+	padding: 5px;
+	background-color: #000;
+	color: #fff;
+	z-index: 9999;
+}
+
+header h2, #audio-wrapper h1 {
+	margin: 15px 50px;
+	font-family: 'Holtwood One SC', serif;
+}
+
+header p {
+	position: absolute;
+	top: 15px;
+	right: 150px;
+}
+header a{
+	margin: 0 10px;
+}
+header a:hover{
+	color: #830202;
+}
+
+/*-- Jumbotron --*/
+#jumbotron{
+	width: 100%;
+	height: 600px;
+	margin-top: 80px;
+	background: url(../images/thesith.png) no-repeat fixed left top;
+}
+
+#callout{
+	position: absolute;
+	top: 250px;
+	left: 60px;
+	width: 700px;
+	color: yellow;
+	font-family: 'Trade Winds', cursive;
+	font-size: 1.5em;
+	opacity: .5;
+	visibility: hidden;
+}
+/*---- Audio Sections ---*/
+
+#audio-wrapper h1{
+	margin: 50px 50px;
+	font-family: 'Holtwood One SC', serif;
+	color: #333;
+}
+
+#audio-wrapper{
+	padding: 10px;
+	background: url(../images/lightsaber.png) no-repeat -800px 150px;
+	border-top: 3px solid red;
+	border-bottom: 3px solid red;
+	overflow: hidden;
+}
+
+.audio-slide{
+	width: 83%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.audio-container{
+	width: 250px;
+	height: 700px;
+	margin-left: 1.5px;
+	background-color: #fff;
+	float: left;
+	overflow: hidden;
+}
+
+.audio-header{
+	margin: 10px 5px;
+}
+
+.audio-header img{
+	width: 350px;
+	height: 200px;
+	border-radius: 5px 5px 0 0;
+}
+
+audio{
+	width: 350px;
+}
+
+.audio-text{
+	padding: 10px;
+}
+
+
+.audio-text h2{
+	margin: 0 0 -20px 5px;
+	font-family: 'Montserrat', sans-serif;
+	color: #830202;
+}
+
+.audio-text h3{
+	margin: 30px 0 5px 5px;
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+}
+
+.audio-text h4{
+	margin: 0 0 5px 5px;
+	font-size: .7em;
+	font-family: 'Montserrat', sans-serif;
+	color: #777;
+}
+
+.audio-text button{
+	width:: 500;
+	height: 30px;
+	margin: 10px 10px;
+	border: 0;
+	border-radius: 5px;
+	background-color: #830202;
+	color: #fff;
+	outline: 0;
+	}
+
+.audio-text button:hover{
+	background-color: #333;
+}
+
+/*----- Video Sections----*/
+
+#video-wrapper{
+	overflow: hidden;
+	background: #000 url(../images/thefirstorder.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.video-container{
+	height: 100%;
+	border-radius: 5px;
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.video-slide{
+	margin-top: 100px;
+}
+
+.video-text{
+	width: 500px;
+	height: 100%;
+	margin: 0 10px;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 0 0 0 5px;
+	float: left;
+}
+
+.video-text h2{
+	margin-bottom: -15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #830202;
+}
+
+.video-text h3{
+	font-family: 'Montserrat', sans-serif;
+	color: #333;
+}
+
+.video-text h4{
+	font-size: .7em;
+	font-family: 'Montserrat', sans-serif;
+	color: #777;
+}
+
+.video-info{
+	width: 400px;
+	margin: 10px;
+	padding: 0;
+	text-align: center;
+	background-color: #fff;
+	float: right;
+}
+
+.video-info img{
+	width: 170px;
+	height: 170px;
+	margin: 10px 10px;
+	padding: 0;
+	border: 1px solid transparent;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+.video-info img:hover{
+	opacity: .7;
+}
+
+#video-wrapper h1{
+	margin: 50px 0 -50px 50px;
+	font-family: 'Holtwood One SC', serif;
+	color: #830202;
+}
+
+.downloadsBtn{
+	width: 100%;
+	margin: 10px;
+	padding: 0;
+	background-color: #fff;
+	float: left;	
+}
+
+.downloadsBtn button{
+	width: 200px;
+	height: 40px;
+	margin: 10px 10px;
+	font-size: 1em;
+	border: 0;
+	border-radius: 5px;
+	color: #fff;
+	outline: 0;
+}
+
+.downloadsBtn .btnCamera{
+	width: 25px;
+	height: 25px;
+	margin: 5px 5px;
+	float: left;
+}
+
+.downloadsBtn h3{
+	margin: 10px 10px;
+	font-family: 'Holtwood One SC', serif;
+	color: #000;
+}
+
+.downloadsBtn p{
+	margin: 5px auto;
+	font-size: .9em;
+	line-height: 13px;
+}
+
+.downloadsBtn .btnTxt{
+	font-size: .8em;
+}
+
+.downloadsBtn a:link,.downloadsBtn a:visited, 
+.downloadsBtn a:hover, .downloadsBtn a:active{
+	color: #fff;
+	text-transform: none;
+}
+
+.downloadsBtn .files{
+	background-color: #830202;
+}
+
+.downloadsBtn .files:hover{
+	background-color: #333;
+}
+
+video{
+	width: 100%;
+	height: 100%;
+	background:transparent url('../images/darksideposter.png') no-repeat 0 0; 
+  -webkit-background-size:cover; 
+  -moz-background-size:cover; 
+  -o-background-size:cover; 
+  background-size:cover; 
+}
+
+/*Flash Fall Back */
+object h2, video h2{
+	
+	margin: -50px 50px;
+	color: #ff0000;
+}
+/*---- Footer------*/
+footer{
+	margin: -20px 0px;
+	width: 100%;
+	height: 150px;
+	padding: 10px;
+	background-color: #000;
+}
+#footer-txt{
+	width: 700px;
+	margin: 130px auto 0 auto;
+	color: #fff;
+	font-size: .8em;
+	text-align: center;
+	border: 0px solid green;
+}
