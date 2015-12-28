@@ -20,7 +20,7 @@ $(document).ready(function(){
   $('.video-slide').bxSlider({
   	infiniteLoop: false,
   	hideControlOnEnd: false,
-  	video: true,
+  	video: false,
   	slideWidth: 960,
     minSlides: 1,
     maxSlides: 1,
